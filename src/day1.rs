@@ -5,7 +5,7 @@ use std::collections::HashMap;
 type List     = Vec<i32>;
 type PairList = (List,List);
   
-const FILEPTH:&str = "./src/day1/day1.txt";
+const FILEPTH:&str = "./data/day1.txt";
 
 pub fn day1() -> (i32,i32) {
     // Read File
@@ -25,9 +25,7 @@ pub fn day1() -> (i32,i32) {
     (sum,sim)
 }
 
-/////////
 // Part 1
-/////////
 fn part1(data:&PairList) -> i32 {
     let mut sum:i32 = 0;
     for ct in 0..data.0.len() {
@@ -36,10 +34,8 @@ fn part1(data:&PairList) -> i32 {
     sum
 }
 
-/////////////////////////////
 // Part 2
 // NOTE: Requires sorted data
-///////////////////////////// 
 fn part2(sorted_data:&PairList) -> i32 {
     // Initialization
     let mut sim:i32  = 0;
