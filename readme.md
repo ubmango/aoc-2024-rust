@@ -8,5 +8,8 @@ https://was.tl/
 
 
 Day 1 Benchmark
-7 ms
+20 ms
+
+Day 2 Benchmark
+15 ms
 
