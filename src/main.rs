@@ -12,7 +12,7 @@ fn main() {
         println!("-part1: {}",ans1.0);
         println!("-part2: {}",ans1.1);
     }
-
     let elapsed: Duration = now.elapsed();
     println!("Elapsed Time: {:.2?}", elapsed);
+    println!();
 }
